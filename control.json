@@ -1,0 +1,30 @@
+{
+    "control": {
+        "ppa_fosco_button_1": {
+            "Value": "175399013",
+            "Bitlength": "28bit",
+            "Protocol": "6"
+        },
+        "ppa_fosco_button_2": {
+            "Value": "175398997",
+            "Bitlength": "28bit",
+            "Protocol": "6"
+        },
+        "ppa_button_1": {
+            "Value": "141695781",
+            "Bitlength": "28bit",
+            "Protocol": "6"
+        },
+        "ppa_button_2": {
+            "Value": "141695765",
+            "Bitlength": "28bit",
+            "Protocol": "6"
+        }
+    },
+    "board": {
+        "sketch": "app.ino",
+        "programmer": "AVR ISP",
+        "board": "arduino:avr:nano",
+        "configuration": "cpu=atmega328"
+    }
+}
